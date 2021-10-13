@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bca8b450-b28f-4feb-902c-48583aab9b29">
+  <producedTypes>
+    <selectionType typeId="3478f218-eee1-4de8-b300-5b048ce7d9b0" valueTypeId="c7118871-78ef-4fee-9100-1b3d093ff586"/>
+    <listType typeId="a13b6e63-7066-4fe0-8345-31d874d7e721" valueTypeId="8f981d11-6539-4278-9892-df43d09c2f51"/>
+    <managerType typeId="6b3d3c7d-c124-44c6-8127-a7a544647795" valueTypeId="d2abcf27-705b-4d57-a95b-87ecd6bb45c3"/>
+    <recordSetType typeId="3859a933-6dbc-454f-8a17-9a2edc6f4297" valueTypeId="ea7d8fb9-ea60-4e01-81b4-66f313e9f4cd"/>
+    <recordKeyType typeId="365ae211-69d4-42b1-be55-ab2b4c7da311" valueTypeId="fd77fe72-a336-43e5-8c71-a8e3633fa042"/>
+    <recordType typeId="643cad8a-14dd-4b4f-8649-66122d5f2b98" valueTypeId="33d77c65-a6df-4415-81bd-0f3a2bd159e2"/>
+    <recordManagerType typeId="6ac66be7-b4ce-4b0c-8624-8ae7bacc000c" valueTypeId="331b0397-e8ee-4d87-8b51-f00406324546"/>
+  </producedTypes>
+  <name>DialogDemoБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Dialog demo базы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0184c2f8-8cd6-46cb-a50d-c6958858c8e6">
+    <name>ИмяБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя базы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="a92ead65-ef0f-4a72-b0c8-860a41d8305a">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

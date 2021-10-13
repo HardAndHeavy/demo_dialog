@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="591c298a-6d25-40ae-9fbf-676e7032e3bb">
+  <name>Dialog</name>
+  <synonym>
+    <key>ru</key>
+    <value>Dialog</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>HTTPService.Dialog</content>
+  <content>Role.Actions</content>
+  <content>Enum.DialogДоступы</content>
+  <content>Catalog.Пользователи</content>
+  <content>Constant.DialogBase1CToken</content>
+  <content>CommonModule.Dialog</content>
+  <content>DataProcessor.DialogDemo</content>
+  <content>Constant.DialogИмяСервера</content>
+  <content>CommonForm.DialogФормаКонстант</content>
+  <content>Constant.DialogDialogToken</content>
+  <content>InformationRegister.DialogDemoUsers</content>
+  <content>InformationRegister.DialogDemoБазы</content>
+</mdclass:Subsystem>

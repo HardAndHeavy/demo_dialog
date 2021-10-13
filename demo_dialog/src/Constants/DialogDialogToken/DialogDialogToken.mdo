@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c19253dd-e72a-490e-b1fd-3f8b7668897b">
+  <producedTypes>
+    <managerType typeId="ac2df26a-c07f-4169-9bfd-39b3aec1d989" valueTypeId="96cc3ba9-544c-4074-b9df-5cc33f0088a6"/>
+    <valueManagerType typeId="b52860c7-2c4d-4294-bfbc-5993a11741f9" valueTypeId="b64fc1c5-37df-4519-ad30-5416c710de5d"/>
+    <valueKeyType typeId="dc133a8a-c1e6-4743-8283-dcd92c2f56c7" valueTypeId="fdb73976-f320-443f-a8ae-6dd8f31db51e"/>
+  </producedTypes>
+  <name>DialogDialogToken</name>
+  <synonym>
+    <key>ru</key>
+    <value>Dialog dialog-token</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

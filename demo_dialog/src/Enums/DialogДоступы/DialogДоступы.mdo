@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f71f0ee-0139-4513-a3c1-2a28fe4546a8">
+  <producedTypes>
+    <refType typeId="aa2ebf63-f79b-4f06-9a9c-1f05696f1ea5" valueTypeId="75b2c8e9-5e2b-48de-ae8d-95105e2baa17"/>
+    <listType typeId="c1a5b453-5f72-499c-87ce-81d3ffd81aa4" valueTypeId="075629cb-5fa0-4e8f-b3d1-09f0e54595f5"/>
+    <managerType typeId="5cc41420-3994-4f89-b630-f6ceb558bfaa" valueTypeId="7cb6ffb9-68f4-4cc5-88d9-b8d5a6f84862"/>
+  </producedTypes>
+  <name>DialogДоступы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Dialog доступы</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="af7e11ae-6c37-4695-88db-6c7c21b377ab">
+    <name>Разрешено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bc747e2e-4704-428c-a39a-910aed5312a6">
+    <name>Запрещено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрещено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

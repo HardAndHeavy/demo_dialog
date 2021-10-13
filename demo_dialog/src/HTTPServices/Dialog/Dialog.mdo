@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0f8c169-0e39-4084-b27e-00036b9b8ea2">
+  <name>Dialog</name>
+  <synonym>
+    <key>ru</key>
+    <value>Dialog</value>
+  </synonym>
+  <rootURL>dialog</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="b98b5e71-7829-4145-b80d-680e7fef1865">
+    <name>Google</name>
+    <synonym>
+      <key>ru</key>
+      <value>Google</value>
+    </synonym>
+    <template>/*</template>
+    <methods uuid="a1d2b6a3-c724-49fb-a5be-cdfc367a3606">
+      <name>Получение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получение</value>
+      </synonym>
+      <handler>GoogleПолучение</handler>
+    </methods>
+    <methods uuid="15a2b179-a505-4838-9c42-d4fbdc36b97f">
+      <name>Обработка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Обработка</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>GoogleОбработка</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

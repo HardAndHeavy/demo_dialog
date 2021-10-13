@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7871bfc2-6bd3-4b7d-821e-1558b59a6b67">
+  <name>demo_dialog</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демонстрационный сервис интеграции 1C и Dialogflow CX</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="cdee850c-70ac-4897-9131-4b6be51b19e9"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="4dbd1ab8-4158-462e-abe1-8b80974ac019"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="759a56fc-3245-4d79-9ad9-59630552de44"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="5cf7679d-932f-490a-be71-f705db306c59"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="3d6a30e5-52e1-4374-a5f9-3d3a77b8e4fd"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="5bff2055-0948-4182-9b98-8c9c8fc96ad3"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="9dce7b4a-95f7-42a7-884c-8c0957d65e26"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <languages uuid="f41844cb-c7c8-448a-9e10-2e82102f76ae">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Dialog</subsystems>
+  <subsystems>Subsystem.ОбщегоНазначения</subsystems>
+  <roles>Role.Actions</roles>
+  <roles>Role.ПолныеПрава</roles>
+  <commonModules>CommonModule.Dialog</commonModules>
+  <commonModules>CommonModule.Глобальный</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияВызовСервера</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияПовтИсп</commonModules>
+  <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
+  <httpServices>HTTPService.Dialog</httpServices>
+  <constants>Constant.DialogBase1CToken</constants>
+  <constants>Constant.DialogDialogToken</constants>
+  <constants>Constant.DialogИмяСервера</constants>
+  <commonForms>CommonForm.DialogФормаКонстант</commonForms>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <enums>Enum.DialogДоступы</enums>
+  <dataProcessors>DataProcessor.DialogDemo</dataProcessors>
+  <informationRegisters>InformationRegister.DialogDemoUsers</informationRegisters>
+  <informationRegisters>InformationRegister.DialogDemoБазы</informationRegisters>
+</mdclass:Configuration>

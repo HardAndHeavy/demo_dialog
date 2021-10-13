@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7a0922a-e4c3-4ebe-a8a6-e28f81357059">
+  <producedTypes>
+    <selectionType typeId="be9f1e73-f6e5-473e-9385-a0a811512e69" valueTypeId="751dd12f-0c05-4c6d-a4bf-a79feccf7608"/>
+    <listType typeId="f00eab26-8a73-4bdf-8709-e9df9c003205" valueTypeId="15842954-929b-4e66-bfca-505b70308440"/>
+    <managerType typeId="dabc88a2-7eac-4c11-9558-86bf34048a22" valueTypeId="ed06b134-c988-4139-8090-055b7fa5bbab"/>
+    <recordSetType typeId="984527a3-7bb1-467a-baea-a91bcf4de6dd" valueTypeId="063c8bac-85c4-4936-8bb0-e8eec7bf5d47"/>
+    <recordKeyType typeId="91725787-d6d8-43ca-81d5-aaa155765376" valueTypeId="090bf336-acee-4b42-9ea7-ef7f0f3ba4d5"/>
+    <recordType typeId="77ad703f-9ec4-4c46-9eb9-9dbaa4c1159d" valueTypeId="6495bfe7-e879-4705-8392-2e569289cf29"/>
+    <recordManagerType typeId="a05d5be8-5ac5-4a51-a09f-b89a4e6726e4" valueTypeId="43aa5a79-ef8b-4678-ad77-7a9418e07a95"/>
+  </producedTypes>
+  <name>DialogDemoUsers</name>
+  <synonym>
+    <key>ru</key>
+    <value>Dialog demo users</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c346c905-85e3-4c24-bf1a-fd8f0704d649">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e2757529-6a41-4900-91b9-f750a65d46e5">
+    <name>user</name>
+    <synonym>
+      <key>ru</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
